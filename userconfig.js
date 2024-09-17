@@ -52,14 +52,14 @@ const default_config = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
+              name: "Aljazeera",
+              url: "https://www.aljazeera.com/",
               icon: "news",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
+              name: "The Intercept",
+              url: "https://theintercept.com/",
               icon: "badge-filled",
               icon_color: palette.peach,
             },

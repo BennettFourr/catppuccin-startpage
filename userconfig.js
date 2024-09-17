@@ -3,7 +3,7 @@ const palette = macchiato;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Rohrersville",
     scale: "C",
   },
   clock: {
@@ -19,29 +19,12 @@ const default_config = {
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
-          name: "bookmarks",
-          links: [
-            {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
-            },
-            {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net/sixty",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
-          ],
-        },
-        {
           name: "workspace",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
+              name: "Mail",
+              url: "https://mail.proton.me/u/0/inbox",
+              icon: "IconMail",
               icon_color: palette.green,
             },
             {
@@ -184,21 +167,21 @@ const default_config = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-10.gif",
+      background_url: "src/img/banners/cbg-2.gif",
       categories: [
         {
           name: "social medias",
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
+              name: "YouTube",
+              url: "https://www.youtube.com",
+              icon: "brand-youtube",
               icon_color: palette.green,
             },
             {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
+              name: "Twitch",
+              url: "https://www.twitch.tv",
+              icon: "brand-twitch",
               icon_color: palette.peach,
             },
             {
@@ -213,27 +196,27 @@ const default_config = {
           name: "games",
           links: [
             {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
+              name: "Geotastic",
+              url: "https://geotastic.net",
               icon: "device-gamepad",
               icon_color: palette.green,
             },
             {
-              name: "steam",
-              url: "https://store.steampowered.com",
+              name: "Globle",
+              url: "https://globle-game.com/",
               icon: "brand-steam",
               icon_color: palette.peach,
             },
             {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
+              name: "Travle",
+              url: "https://travle.earth/",
+              icon: "IconPlane",
               icon_color: palette.red,
             },
             {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
+              name: "Steam",
+              url: "https://store.steampowered.com",
+              icon: "brand-steam",
               icon_color: palette.blue,
             },
           ],
@@ -242,13 +225,13 @@ const default_config = {
           name: "video",
           links: [
             {
-              name: "anilist",
+              name: "Netflix",
               url: "https://anilist.co/home",
               icon: "brand-funimation",
               icon_color: palette.green,
             },
             {
-              name: "youtube",
+              name: "Amazon Prime",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,

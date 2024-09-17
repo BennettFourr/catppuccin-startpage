@@ -25,7 +25,7 @@ const default_config = {
             {
               name: "Mail",
               url: "https://mail.proton.me/u/0/inbox",
-              icon: "Icon-Mail",
+              icon: "brand-gmail",
               icon_color: palette.green,
             },
             {
@@ -64,22 +64,10 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
+              name: "Crime Think",
+              url: "https://crimethinc.com/",
               icon: "eye-bolt",
               icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
             },
           ],
         },

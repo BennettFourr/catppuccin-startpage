@@ -5,6 +5,7 @@ const default_config = {
   temperature: {
     location: "Rohrersville",
     scale: "C",
+    "localIcons": true,
   },
   clock: {
     format: "h:i p",
@@ -24,7 +25,7 @@ const default_config = {
             {
               name: "Mail",
               url: "https://mail.proton.me/u/0/inbox",
-              icon: "IconMail",
+              icon: "Icon-Mail",
               icon_color: palette.green,
             },
             {
@@ -98,9 +99,9 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
+              name: "Vercel",
+              url: "https://vercel.com/dashboard",
+              icon: "triangle",
               icon_color: palette.peach,
             },
             {
@@ -133,36 +134,7 @@ const default_config = {
               icon_color: palette.red,
             },
           ],
-        },
-        {
-          name: "blogs",
-          links: [
-            {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.peach,
-            },
-            {
-              name: "uber research",
-              url: "https://eng.uber.com/category/articles",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "google research",
-              url: "https://blog.research.google",
-              icon: "hexagon-letter-g",
-              icon_color: palette.blue,
-            },
-          ],
-        },
+        },,
       ],
     },
     {
@@ -185,9 +157,9 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
+              name: "Spotify",
+              url: "https://open.spotify.com",
+              icon: "IconMusic",
               icon_color: palette.red,
             },
           ],
@@ -204,48 +176,19 @@ const default_config = {
             {
               name: "Globle",
               url: "https://globle-game.com/",
-              icon: "brand-steam",
+              icon: "device-gamepad",
               icon_color: palette.peach,
             },
             {
               name: "Travle",
               url: "https://travle.earth/",
-              icon: "IconPlane",
+              icon: "device-gamepad",
               icon_color: palette.red,
             },
             {
               name: "Steam",
               url: "https://store.steampowered.com",
               icon: "brand-steam",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "video",
-          links: [
-            {
-              name: "Netflix",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
-              icon_color: palette.green,
-            },
-            {
-              name: "Amazon Prime",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
-              icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
               icon_color: palette.blue,
             },
           ],

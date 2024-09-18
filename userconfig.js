@@ -98,6 +98,12 @@ const default_config = {
               icon: "24-hours",
               icon_color: palette.red,
             },
+            {
+              name: "Hacker News",
+              url: "https://news.ycombinator.com/",
+              icon: "brand-hacker-news",
+              icon_color: palette.blue,
+            },
           ],
         },
         {

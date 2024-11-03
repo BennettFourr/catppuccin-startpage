@@ -151,8 +151,8 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "Pi-Hole",
-              url: "http://192.168.12.133/admin/login.php",
+              name: "Nebula",
+              url: "https://nebula.tv/library",
               icon: "IconPi",
               icon_color: palette.red,
             },

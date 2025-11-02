@@ -42,7 +42,7 @@ const default_config = {
             },
             {
               name: "drive",
-              url: "https://drive.google.com/drive/home",
+              url: "https://drive.proton.me",
               icon: "brand-google-drive",
               icon_color: palette.blue,
             },

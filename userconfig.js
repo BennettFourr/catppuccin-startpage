@@ -30,7 +30,7 @@ const default_config = {
             },
             {
               name: "calendar",
-              url: "https://calendar.google.com",
+              url: "https://calendar.proton.me/u/0/month",
               icon: "calendar-filled",
               icon_color: palette.peach,
             },

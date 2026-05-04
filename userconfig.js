@@ -36,7 +36,7 @@ const default_config = {
             },
             {
               name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
+              url: "https://docs.proton.me/u/0/recents?type=spreadsheet",
               icon: "table",
               icon_color: palette.red,
             },
